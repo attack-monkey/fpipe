@@ -1,0 +1,30 @@
+{
+  "name": "@attack-monkey/fpipe",
+  "version": "1.0.1",
+  "description": "An fsharp style pipe",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attack-monkey/fpipe.git"
+  },
+  "keywords": [
+    "functional",
+    "fp",
+    "fsharp",
+    "pipe",
+    "fpipe"
+  ],
+  "author": "attack-monkey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/attack-monkey/fpipe/issues"
+  },
+  "homepage": "https://github.com/attack-monkey/fpipe#readme",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
