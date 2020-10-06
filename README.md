@@ -13,9 +13,9 @@ npm i @attack-monkey/fpipe
 
 ## Usage
 
-I like Ramda... but there pipe / compose is off for my liking.
+I like Ramda... but their `pipe` / `compose` is off for my liking.
 
-Ramda pipe is essentially an fsharp compose and Ramda compose is just an fsharp right to left compose.
+Ramda `pipe` is essentially an fsharp `compose` and Ramda `compose` is just an fsharp right to left compose (`<<`).
 
 This pipe is an fsharp pipe.
 
