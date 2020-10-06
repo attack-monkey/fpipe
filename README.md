@@ -17,13 +17,13 @@ I like Ramda... but their `pipe` / `compose` is off for my liking.
 
 Ramda `pipe` is essentially an fsharp `compose` and Ramda `compose` is just an fsharp right to left compose (`<<`).
 
-This pipe is an fsharp pipe.
+`fpipe` is an fsharp pipe.
 
 ```typescript
 
 const inc = (a: number) => a + 1
 
-const thirteen = pipe(10, inc, inc, inc)
+const thirteen = fpipe(10, inc, inc, inc)
 
 ```
 
